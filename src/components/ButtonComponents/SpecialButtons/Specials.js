@@ -10,7 +10,7 @@ const Specials = () => {
   const [specialCount] = useState(specials);
 
   return (
-    <div>
+    <div className="special-container">
       {specialCount.map((button, index) => (
         <SpecialButton key={index} button={button} />
       ))}

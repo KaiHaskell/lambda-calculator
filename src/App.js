@@ -24,11 +24,11 @@ function App() {
     <div className="container">
       <Logo />
       <div className="App">
+        <Display number={displayValue} />
+        <Specials />
         <div className="calcContainer">
-          <Display number={displayValue} />
-          <Operators />
           <Numbers addNumber={addNumber} />
-          <Specials />
+          <Operators />
         </div>
       </div>
     </div>

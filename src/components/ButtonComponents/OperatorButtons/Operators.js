@@ -8,7 +8,7 @@ import OperatorButton from "./OperatorButton";
 const Operators = () => {
   const [operatorCount] = useState(operators);
   return (
-    <div>
+    <div className="operator-container">
       {operatorCount.map((button, index) => (
         <OperatorButton key={index} button={button} />
       ))}

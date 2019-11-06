@@ -6,8 +6,7 @@ const NumberButton = props => {
       className="number-button"
       onClick={() => props.addNumber(props.text)}
     >
-      {console.log(props)}
-
+      {props.button}
       {props.text}
     </button>
   );
